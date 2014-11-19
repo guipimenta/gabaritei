@@ -15,7 +15,7 @@ class Question < ActiveRecord::Base
 	#Metodos do model
 	#Gosto desse tipo de metodos com interrogacao, acho que eles sao auto explicativos tambem
 	def alternative?
-		if self.type == 'Discursiva'
+		if self.type == Question::ALTERNATIVE_TYPE
 			return true
 		else
 			return false
@@ -24,7 +24,7 @@ class Question < ActiveRecord::Base
 
 
 	def discursive?
-		if self.type == 'Alternativa'
+		if self.type == Question::DISCURSIVE_TYPE
 			return true
 		else
 			return false

@@ -8,6 +8,9 @@ class Question < ActiveRecord::Base
 				DISCURSIVE_TYPE = 'Discursiva', 
 				ALTERNATIVE_TYPE = 'Alternativa'
 			]
+	
+	#Definicao de questao
+	HOT = false
 
 	#Acho que seria bom implementar tambem o mesmo tipo de "truque" para o campo Area (Area de conhecimento)
 
@@ -21,6 +24,12 @@ class Question < ActiveRecord::Base
 			return false
 		end
 	end
+	
+	#retorna se a questao e quente ou nao
+	def hot?
+        return self.hot
+	end
+	
 
 
 	def discursive?

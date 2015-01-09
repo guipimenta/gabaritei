@@ -1,10 +1,14 @@
-gabaritei
-=========
+Projeto Gabaritei
+=====================
 
-1. O que é?
-  Gabaritei é uma plataforma de distribuição de conteúdo vinculada a ferramentas que permitam o aprendizado através da internet. Um jeito simples de descrever seria um cursinho virtual, com foco para preparação no vestibular.
 
-2. Implementação
-  
-  A principal plataforma utilizada será Ruby On Rails. Servidor Web e Banco de Dados ainda estão a serem decididos.
+1. Apresentação
 
+Plataforma educacional online voltada para escolas e cursinhos. Flexível e adaptável, tem como objetivo suprir
+de ser utilizado em diversos ambientes, com diversas combinações de hardware e software.
+
+2. Tecnologia utilizada
+
+    - Ruby on Rails
+    - Bootstrap
+    

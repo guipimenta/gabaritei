@@ -11,9 +11,13 @@ class Question < ActiveRecord::Base
 	
 	#Definicao de questao
 	HOT = false
-
-	#Acho que seria bom implementar tambem o mesmo tipo de "truque" para o campo Area (Area de conhecimento)
-
+  
+  #Acho que seria bom implementar tambem o mesmo tipo de "truque" para o campo Area (Area de conhecimento)
+  #Acredito que a gente deveria importar os tipos de subject de um outro arquivo, de forma que possamos adicionar ou
+  #Remover areas de conhecimento
+  #Uma questao pode ser interdisciplinar, portanto, pode ter mais de uma disciplina (subjects)
+  subjects = []
+  
 
 	#Metodos do model
 	#Gosto desse tipo de metodos com interrogacao, acho que eles sao auto explicativos tambem
@@ -25,12 +29,15 @@ class Question < ActiveRecord::Base
 		end
 	end
 	
+  def subject?
+    return self.subjects
+  end
+	
 	#retorna se a questao e quente ou nao
 	def hot?
         return self.hot
 	end
 	
-
 
 	def discursive?
 		if self.type == Question::DISCURSIVE_TYPE

@@ -4,7 +4,11 @@ class QuestionsController < ApplicationController
   # GET /questions
   # GET /questions.json
   def index
-    @questions = Question.all
+    if params.size == 0
+      @questions = Question.all
+    else
+      @questions = Question.find_by 
+    end
   end
 
   # GET /questions/1

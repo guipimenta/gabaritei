@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class DisciplinasTest < ActiveSupport::TestCase
+class SubjectTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

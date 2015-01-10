@@ -6,7 +6,10 @@ class CreateQuestions < ActiveRecord::Migration
       t.string :type
       t.datetime :year
       t.string :area
-
+      
+      t.integer :subject
+      
+      
       t.timestamps
     end
 

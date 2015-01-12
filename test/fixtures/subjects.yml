@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  professor_id: 1
+  department_id: 1
+  descricao: MyText
+
+two:
+  name: MyText
+  professor_id: 1
+  department_id: 1
+  descricao: MyText

@@ -23,12 +23,4 @@ ActiveRecord::Schema.define(version: 20150112112503) do
     t.boolean  "hot"
   end
 
-  create_table "subjects", force: true do |t|
-    t.string   "name"
-    t.integer  "professor_id"
-    t.integer  "department_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
 end

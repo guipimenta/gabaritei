@@ -2684,3 +2684,104 @@ Migrating to CreateSubjects (20150110025422)
   [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150110025422"]]
   [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-12 01:17:57 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 305ms (Views: 296.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:57 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:57 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:57 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 01:17:58 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-12 01:18:00 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `take' for #<ActiveRecord::QueryMethods::WhereChain:0x0000000557cf38>):
+  app/controllers/questions_controller.rb:10:in `index'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-12 01:18:00 -0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `take' for #<ActiveRecord::QueryMethods::WhereChain:0x000000052ff0d0>):
+  app/controllers/questions_controller.rb:10:in `index'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)

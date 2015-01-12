@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150110025422) do
+ActiveRecord::Schema.define(version: 20150112112503) do
 
   create_table "questions", force: true do |t|
     t.text     "question"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20150110025422) do
     t.string   "area"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "hot"
   end
 
   create_table "subjects", force: true do |t|

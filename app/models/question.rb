@@ -3,11 +3,11 @@ class Question < ActiveRecord::Base
 	#Relacoes (Answers ainda deve ser implementado)
 	has_many :answers
 	
-  #Acho que seria bom implementar tambem o mesmo tipo de "truque" para o campo Area (Area de conhecimento)
-  #Acredito que a gente deveria importar os tipos de subject de um outro arquivo, de forma que possamos adicionar ou
-  #Remover areas de conhecimento
-  #Uma questao pode ser interdisciplinar, portanto, pode ter mais de uma disciplina (subjects)
-  has_many :subjects
+			#Acho que seria bom implementar tambem o mesmo tipo de "truque" para o campo Area (Area de conhecimento)
+			#Acredito que a gente deveria importar os tipos de subject de um outro arquivo, de forma que possamos adicionar ou
+			#Remover areas de conhecimento
+			#Uma questao pode ser interdisciplinar, portanto, pode ter mais de uma disciplina (subjects)
+			belongs_to :subject
 
 	#Opcoes de tipo de Questao, funciona mais ou menos como um enum
 	TYPE = [

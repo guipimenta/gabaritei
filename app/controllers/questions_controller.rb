@@ -1,6 +1,6 @@
 class QuestionsController < ApplicationController
   before_action :set_question, only: [:show, :edit, :update, :destroy]
-
+  helper QuestionsHelper
   # GET /questions
   # GET /questions.json
   def index
@@ -18,22 +18,8 @@ class QuestionsController < ApplicationController
     end 
     
     
-    #Cria filtro, eventualmente colocar em helper
-    subjects = Subject.all
-    @subjects_select = Array.new
-    
-    temp_sub =  Array.new
-    temp_sub << "Todas"
-    temp_sub << "0"
-    @subjects_select << temp_sub
-    
-    subjects.each do |subject|
-      temp_sub =  Array.new
-      temp_sub.push subject.name
-      temp_sub.push subject.id
-      @subjects_select << temp_sub
-    end
-    
+    #Para criar dropdown com filtro
+    @subjects = Subject.all
     
   end
 

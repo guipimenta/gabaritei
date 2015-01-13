@@ -10042,3 +10042,480 @@ Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -
 
 
 Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 15:33:35 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 281ms (Views: 273.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 15:33:36 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:33:37 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered questions/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4:     <%= form_tag("/questions", method: "get") do %>
+    5:       <%= label_tag(:subject_id, "Filtrar por disciplinas:") %>
+    6:       <select name="subject_id">
+    7:         <%subjects_select = FillSubjectDropdown @subjects%>
+    8:         <%= options_for_select(subjects_select,0) %>
+    9:         <%= submit_tag("Filtrar") %>
+   10:       </select>
+  app/helpers/questions_helper.rb:10:in `FillSubjectDropdown'
+  app/views/questions/index.html.erb:7:in `block in _app_views_questions_index_html_erb___204612322379973853_32256540'
+  app/views/questions/index.html.erb:4:in `_app_views_questions_index_html_erb___204612322379973853_32256540'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:33:37 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.4ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  Rendered questions/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4:     <%= form_tag("/questions", method: "get") do %>
+    5:       <%= label_tag(:subject_id, "Filtrar por disciplinas:") %>
+    6:       <select name="subject_id">
+    7:         <%subjects_select = FillSubjectDropdown @subjects%>
+    8:         <%= options_for_select(subjects_select,0) %>
+    9:         <%= submit_tag("Filtrar") %>
+   10:       </select>
+  app/helpers/questions_helper.rb:10:in `FillSubjectDropdown'
+  app/views/questions/index.html.erb:7:in `block in _app_views_questions_index_html_erb___204612322379973853_27218420'
+  app/views/questions/index.html.erb:4:in `_app_views_questions_index_html_erb___204612322379973853_27218420'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:34:27 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered questions/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5:       <%= label_tag(:subject_id, "Filtrar por disciplinas:") %>
+     6:       <select name="subject_id">
+     7:         <%=@subjects%>
+     8:         <%subjects_select = FillSubjectDropdown @subjects%>
+     9:         <%= options_for_select(subjects_select,0) %>
+    10:         <%= submit_tag("Filtrar") %>
+    11:       </select>
+  app/helpers/questions_helper.rb:10:in `FillSubjectDropdown'
+  app/views/questions/index.html.erb:8:in `block in _app_views_questions_index_html_erb___204612322379973853_24586600'
+  app/views/questions/index.html.erb:4:in `_app_views_questions_index_html_erb___204612322379973853_24586600'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:36:09 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.4ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered questions/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 126.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 15:36:10 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:36:48 -0200
+
+SyntaxError (/home/guilherme/Projetos/gabaritei/app/helpers/questions_helper.rb:2: formal argument cannot be an instance variable):
+  app/helpers/questions_helper.rb:2: formal argument cannot be an instance variable
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/questions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:37:13 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.3ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  Rendered questions/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5:       <%= label_tag(:subject_id, "Filtrar por disciplinas:") %>
+     6:       <select name="subject_id">
+     7:         <%=@subjects%>
+     8:         <%subjects_select = FillSubjectDropdown @subjects%>
+     9:         <%= options_for_select(subjects_select,0) %>
+    10:         <%= submit_tag("Filtrar") %>
+    11:       </select>
+  app/helpers/questions_helper.rb:10:in `FillSubjectDropdown'
+  app/views/questions/index.html.erb:8:in `block in _app_views_questions_index_html_erb___204612322379973853_38609580'
+  app/views/questions/index.html.erb:4:in `_app_views_questions_index_html_erb___204612322379973853_38609580'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:37:33 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions"
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Completed 500 Internal Server Error in 19ms
+
+NameError (undefined local variable or method `subjects' for #<QuestionsController:0x000000030f4af8>):
+  app/controllers/questions_controller.rb:30:in `index'
+
+
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 128.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:14 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 15:38:40 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 217ms (Views: 208.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:40 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:40 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:40 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:40 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:40 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:41 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 144.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 15:38:42 -0200

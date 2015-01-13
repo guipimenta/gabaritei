@@ -1,5 +1,14 @@
 <h1>Banco de Questoes</h1>
 
+<p>
+  Filtrar por disciplinas:
+  <select class="form-control">
+    <% @subjects.each do |subject| %>
+    <%= "raw <option>".html_safe%> <%= subject.name %> <%=raw"</option>"%>
+    <% end %>
+  </select>
+</p>
+
 <table>
   <thead>
     <tr>

@@ -4,8 +4,37 @@ class QuestionsController < ApplicationController
   # GET /questions
   # GET /questions.json
   def index
-    @questions = Question.all
-    @subjects = Subject.all
+    if not params.has_key?("subject_id")
+      logger.info("Parameters: #{params}")
+      @questions = Question.all
+    else
+      logger.info "[DEBUG] #{params[:subject_id]}"
+      logger.info "[DEBUG] #{params[:subject_id] == 0}"
+      if params[:subject_id] == "0"
+        @questions = Question.all
+      else
+        @questions = Question.where(subject_id: params[:subject_id])
+      end
+    end 
+    
+    
+    #Cria filtro, eventualmente colocar em helper
+    subjects = Subject.all
+    @subjects_select = Array.new
+    
+    temp_sub =  Array.new
+    temp_sub << "Todas"
+    temp_sub << "0"
+    @subjects_select << temp_sub
+    
+    subjects.each do |subject|
+      temp_sub =  Array.new
+      temp_sub.push subject.name
+      temp_sub.push subject.id
+      @subjects_select << temp_sub
+    end
+    
+    
   end
 
   # GET /questions/1
@@ -21,6 +50,7 @@ class QuestionsController < ApplicationController
   # GET /questions/1/edit
   def edit
   end
+  
 
   # POST /questions
   # POST /questions.json

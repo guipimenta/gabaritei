@@ -1,12 +1,13 @@
 <h1>Banco de Questoes</h1>
 
 <p>
-  Filtrar por disciplinas:
-  <select class="form-control">
-    <% @subjects.each do |subject| %>
-    <%= "raw <option>".html_safe%> <%= subject.name %> <%=raw"</option>"%>
+    <%= form_tag("/questions", method: "get") do %>
+      <%= label_tag(:subject_id, "Filtrar por disciplinas:") %>
+      <select name="subject_id">
+        <%= options_for_select(@subjects_select,0) %>
+        <%= submit_tag("Filtrar") %>
+      </select>
     <% end %>
-  </select>
 </p>
 
 <table>

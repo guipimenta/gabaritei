@@ -5535,3 +5535,4510 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 02:12:28
   [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions"  WHERE "questions"."id" = ? LIMIT 1[0m  [["id", 2]]
   [1m[35mQuestion Load (0.3ms)[0m  SELECT  "questions".* FROM "questions"  WHERE "questions"."id" = ? LIMIT 1  [["id", 3]]
   [1m[36mSubject Load (0.3ms)[0m  [1mSELECT  "subjects".* FROM "subjects"  WHERE "subjects"."id" = ? LIMIT 1[0m  [["id", 2]]
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 08:19:18 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 2083ms (Views: 2052.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:21 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:21 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:21 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:21 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:22 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:19:25 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (20.1ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 262ms (Views: 220.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:26 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:19:43 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 202ms (Views: 200.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:19:44 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:20:45 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (37.9ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fc9e25d5990>:0x007fc9e27a7750>):
+    11:       </select>
+    12:     </div>
+    13:     <div class="actions">
+    14:       <%= f.submit %>
+    15:     </div>
+    16:   </form>
+    17: </p>
+  app/views/questions/index.html.erb:14:in `_app_views_questions_index_html_erb__399020742131418931_70252532411780'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 245ms (Views: 243.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:15 -0200
+
+
+Started GET "/question" for 127.0.0.1 at 2015-01-13 08:21:17 -0200
+
+ActionController::RoutingError (No route matches [GET] "/question"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.7ms)
+
+
+Started GET "/question" for 127.0.0.1 at 2015-01-13 08:21:29 -0200
+
+ActionController::RoutingError (No route matches [GET] "/question"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.4ms)
+
+
+Started GET "/question" for 127.0.0.1 at 2015-01-13 08:21:30 -0200
+
+ActionController::RoutingError (No route matches [GET] "/question"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/question" for 127.0.0.1 at 2015-01-13 08:21:33 -0200
+
+ActionController::RoutingError (No route matches [GET] "/question"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 08:21:37 -0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 214ms (Views: 212.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:38 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 246ms (Views: 244.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:39 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 201ms (Views: 200.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:41 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 231ms (Views: 229.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:21:44 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:31:21 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 263ms (Views: 261.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:22 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 251ms (Views: 249.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:31:38 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:41:59 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `>' for nil:NilClass):
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:45:10 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 27ms
+
+NameError (uninitialized constant QuestionsController::EMPTY_ARRAY):
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:46:45 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 29ms
+
+NameError (uninitialized constant QuestionsController::EMPTY_ARRAY):
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:47:13 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `is_istanceof?' for {"action"=>"index", "controller"=>"questions"}:ActionController::Parameters):
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:47:24 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `is_instanceof?' for {"action"=>"index", "controller"=>"questions"}:ActionController::Parameters):
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:47:57 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+TypeError (class or module required):
+  app/controllers/questions_controller.rb:7:in `instance_of?'
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:48:54 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (20.5ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 2111ms (Views: 2056.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:56 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:56 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:56 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:56 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:48:57 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:49:18 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:82: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/questions_controller.rb:82: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 268ms (Views: 208.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:33 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:34 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:49:35 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 203ms (Views: 201.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:36 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+Completed 200 OK in 240ms (Views: 237.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:49:38 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+Processing by QuestionsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 240ms (Views: 238.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:50:14 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:50:39 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `pararms' for #<QuestionsController:0x007fc3d3fadbf8>):
+  app/controllers/questions_controller.rb:8:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.1ms)
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:50:49 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+TypeError (no implicit conversion of ActionController::Parameters into String):
+  app/controllers/questions_controller.rb:8:in `+'
+  app/controllers/questions_controller.rb:8:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 266ms (Views: 256.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:07 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 199ms (Views: 197.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:51:10 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:52:43 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuestionsController#index as HTML
+hello
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_navbar.html.erb (0.9ms)
+Completed 200 OK in 1810ms (Views: 1757.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:52:46 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+Processing by QuestionsController#index as HTML
+hello
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 238ms (Views: 235.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:36 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+Processing by QuestionsController#index as HTML
+hello
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 216ms (Views: 213.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:38 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 08:54:39 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+Processing by QuestionsController#index as HTML
+hello
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 207ms (Views: 204.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:34 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:35 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:35 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:35 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:35 -0200
+
+
+Started GET "/questions/" for 127.0.0.1 at 2015-01-13 09:00:47 -0200
+Processing by QuestionsController#index as HTML
+hello
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 258ms (Views: 255.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:00:48 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Filtrar"}
+hello
+Parameters: {"utf8"=>"✓", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 256ms (Views: 254.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:01:05 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:07:53 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Filtrar"}
+hello
+Parameters: {"utf8"=>"✓", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (74.0ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (undefined local variable or method `subjects' for #<#<Class:0x007fa9bb5b6ca8>:0x007fa9bcaac568>):
+     5:       <%= label_tag(:subject_id, "Filtrar por disciplinas:") %>
+     6:       <select class="form-control">
+     7:         <% @subjects.each do |subject| %>
+     8:           <%= options_for_select(subjects, 2) %>
+     9:         <% end %>
+    10:       </select>
+    11:       <%= submit_tag("Filtrar") %>
+  app/views/questions/index.html.erb:8:in `block (2 levels) in _app_views_questions_index_html_erb___3777049911624986909_70183495742540'
+  app/views/questions/index.html.erb:7:in `block in _app_views_questions_index_html_erb___3777049911624986909_70183495742540'
+  app/views/questions/index.html.erb:4:in `_app_views_questions_index_html_erb___3777049911624986909_70183495742540'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Filtrar"}
+hello
+Parameters: {"utf8"=>"✓", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 256ms (Views: 254.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:08:02 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:26:25 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.0ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:26:57 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:26:58 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:28:04 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.9ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:28:05 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:28:18 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:28:19 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:29:39 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.7ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:29:40 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:19: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+  [1m[36mSubject Load (3.8ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:36:49 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (7.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (34.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (73.8ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:36:51 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.4ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:36:53 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:37:29 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.3ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:37:30 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:20: syntax error, unexpected '\n', expecting :: or '[' or '.'
+  app/controllers/questions_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+  [1m[36mSubject Load (1.8ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 09:43:17 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (8.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 2008ms (Views: 1983.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:43:20 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.6ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 291ms (Views: 238.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:43:28 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.6ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL[0m
+  Rendered questions/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 252ms (Views: 235.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:08 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=F%C3%ADsica&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:50:13 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"Física", "commit"=>"Filtrar"}
+Parameters: {"utf8"=>"✓", "subject_id"=>"Física", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 0[0m
+  Rendered questions/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 200ms (Views: 196.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:50:14 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=F%C3%ADsica&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:50:50 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"Física", "commit"=>"Filtrar"}
+Parameters: {"utf8"=>"✓", "subject_id"=>"Física", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+Completed 500 Internal Server Error in 71ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:18:in `initialize'
+  app/controllers/questions_controller.rb:18:in `new'
+  app/controllers/questions_controller.rb:18:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.5ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=F%C3%ADsica&commit=Filtrar" for 127.0.0.1 at 2015-01-13 09:52:46 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"Física", "commit"=>"Filtrar"}
+Parameters: {"utf8"=>"✓", "subject_id"=>"Física", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.6ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Completed 500 Internal Server Error in 16ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:18:in `initialize'
+  app/controllers/questions_controller.rb:18:in `new'
+  app/controllers/questions_controller.rb:18:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 243ms (Views: 242.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 09:59:28 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 09:59:29 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 09:59:30 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+Completed 500 Internal Server Error in 15ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:18:in `initialize'
+  app/controllers/questions_controller.rb:18:in `new'
+  app/controllers/questions_controller.rb:18:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 09:59:30 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Completed 500 Internal Server Error in 2ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:18:in `initialize'
+  app/controllers/questions_controller.rb:18:in `new'
+  app/controllers/questions_controller.rb:18:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:01:08 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+Completed 500 Internal Server Error in 13ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:18:in `initialize'
+  app/controllers/questions_controller.rb:18:in `new'
+  app/controllers/questions_controller.rb:18:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:01:09 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Completed 500 Internal Server Error in 2ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:18:in `initialize'
+  app/controllers/questions_controller.rb:18:in `new'
+  app/controllers/questions_controller.rb:18:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:01:46 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+Física
+1
+Completed 500 Internal Server Error in 15ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:20:in `initialize'
+  app/controllers/questions_controller.rb:20:in `new'
+  app/controllers/questions_controller.rb:20:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (41.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.8ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:01:48 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.3ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Completed 500 Internal Server Error in 4ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/questions_controller.rb:20:in `initialize'
+  app/controllers/questions_controller.rb:20:in `new'
+  app/controllers/questions_controller.rb:20:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:04:15 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+Física
+1
+Completed 500 Internal Server Error in 16ms
+
+ArgumentError (wrong number of arguments (2 for 0..1)):
+  app/controllers/questions_controller.rb:20:in `initialize'
+  app/controllers/questions_controller.rb:20:in `new'
+  app/controllers/questions_controller.rb:20:in `block in index'
+  app/controllers/questions_controller.rb:17:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:05:35 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:20: syntax error, unexpected =>, expecting '}'
+      temp_sub =  Hash.new {subject.name => subject.id}
+                                           ^):
+  app/controllers/questions_controller.rb:20: syntax error, unexpected =>, expecting '}'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.4ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.7ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 319ms (Views: 262.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:09 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.5ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.5ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 252ms (Views: 233.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:06:58 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.6ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.7ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 318ms (Views: 297.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:11 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:11:24 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.8ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.6ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 276ms (Views: 201.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:25 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=2&commit=Filtrar" for 127.0.0.1 at 2015-01-13 10:11:28 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"2", "commit"=>"Filtrar"}
+Parameters: {"utf8"=>"✓", "subject_id"=>"2", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 2
+  Rendered questions/index.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 205ms (Views: 202.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:29 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=2&commit=Filtrar" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"2", "commit"=>"Filtrar"}
+Parameters: {"utf8"=>"✓", "subject_id"=>"2", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 2
+  Rendered questions/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 184ms (Views: 181.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:36 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:11:37 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:36:34 -0200
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 239ms (Views: 237.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:36:35 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:37:15 -0200
+Processing by QuestionsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `id' for {"action"=>"index", "controller"=>"questions"}:ActionController::Parameters):
+  app/controllers/questions_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:39:43 -0200
+Processing by QuestionsController#index as HTML
+  [1m[36mSubject Load (0.3ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+Física
+1
+Química
+2
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered questions/index.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 207ms (Views: 193.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:39:44 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:44:29 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:46:37 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:99: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:99: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:48:30 -0200
+
+SyntaxError (/Users/Guilherme/Documents/Projetos/Ruby/gabaritei/app/controllers/questions_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/questions_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:51:03 -0200
+Processing by QuestionsController#index as HTML
+  [1m[36mSubject Load (0.4ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 236ms (Views: 218.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:04 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:51:41 -0200
+Processing by QuestionsController#index as HTML
+  [1m[36mSubject Load (0.4ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 271ms (Views: 254.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:42 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+Processing by QuestionsController#index as HTML
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.5ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 257ms (Views: 253.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:51:57 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 10:52:00 -0200
+Processing by QuestionsController#index as HTML
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" IS NULL
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 223ms (Views: 220.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:01 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar", "action"=>"index", "controller"=>"questions"}
+  [1m[36mSubject Load (0.3ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered questions/index.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+Completed 200 OK in 264ms (Views: 260.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:52:07 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 10:56:13 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+  [1m[36mSubject Load (0.5ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 0
+  Rendered questions/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 240ms (Views: 218.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:13 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:13 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:56:14 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 0
+  Rendered questions/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 208ms (Views: 205.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 10:58:29 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+[DEBUG] 0
+  [1m[36mSubject Load (0.3ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 0
+  Rendered questions/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 270ms (Views: 250.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:58 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 11:00:59 -0200
+
+
+Started GET "/questions" for 127.0.0.1 at 2015-01-13 11:01:55 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuestionsController#index as HTML
+Parameters: {"action"=>"index", "controller"=>"questions"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 2091ms (Views: 2030.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 11:01:59 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+[DEBUG] 0
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 0[0m
+  Rendered questions/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+Completed 200 OK in 273ms (Views: 250.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:45 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 11:02:46 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+[DEBUG] 0
+[DEBUG] false
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."subject_id" = 0[0m
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 255ms (Views: 235.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 11:03:33 -0200
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 11:03:56 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+[DEBUG] 0
+[DEBUG] false
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `to_int' for "0":String):
+  app/controllers/questions_controller.rb:13:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 11:04:33 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+[DEBUG] 0
+[DEBUG] false
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `to_int' for "0":String):
+  app/controllers/questions_controller.rb:13:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/questions?utf8=%E2%9C%93&subject_id=0&commit=Filtrar" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+Processing by QuestionsController#index as HTML
+  Parameters: {"utf8"=>"✓", "subject_id"=>"0", "commit"=>"Filtrar"}
+[DEBUG] 0
+[DEBUG] false
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (103.5ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 303ms (Views: 286.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+
+
+Started GET "/assets/bootstrap-table-responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+
+
+Started GET "/assets/custom-icon-set.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+
+
+Started GET "/assets/custom-icons.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:46 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/large_screen_tweak.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/magic_space.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2015-01-13 11:04:47 -0200

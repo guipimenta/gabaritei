@@ -1,12 +1,12 @@
 /* Font Import */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
     color:#333843! important;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder { 
     color:#333843! important;
 }
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+:-ms-input-placeholder { 
     color:#333843! important;
 }
 
@@ -147,7 +147,7 @@ Page sidebar
 .page-sidebar > ul > li >a:hover, 
 .page-sidebar > ul > li:hover >a {  
   background: #1b1e24;
- /* border-left:4px solid  #0aa699;*/
+
   padding:11.5px 31px;
   color: #fff;
 }
@@ -1170,8 +1170,7 @@ span.iconset{
 .page-sidebar > ul > li.active > a {
   border: none; 
   text-shadow:none;
-  /*border-left:4px solid  #0aa699;*/
-  /*padding: 10px 25px 10px 21px;*/
+
 }  
 
 .page-sidebar > ul > li.active > a .selected {
@@ -3785,7 +3784,6 @@ div.DTTT_print_info p {
     height: 10px;
     top: -5px;
     width: 10px;
-	/* to add opacity opacity:0.50; */
 	
 }
 
@@ -4253,7 +4251,7 @@ background-position: -95px -40px;
 	width:100%;
 	height:250px;
 }
-/* */
+
 .btn-social{
 	font-size: 20px;
     margin: 10px;
@@ -5417,7 +5415,6 @@ ul.progress-list li  .progress{
 	border-bottom:0px;
 }
 .table th{
-	/*border-bottom: 1px solid #c9d1d8;*/
 	border-top: 1px solid #e8edf1;
 	padding: 10px 12px;
 	font-size:12px;

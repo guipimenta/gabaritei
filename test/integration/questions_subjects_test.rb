@@ -6,11 +6,7 @@ class QuestionsSubjectsTest < ActionDispatch::IntegrationTest
 	@question = questions(:one)
 	@subject = subjects(:one)
 	setupCapybara
-   end
-  
-   def teardown
-	#Clear selenium db
-	system("RAILS_ENV=selenium rake db:reset")
+	setupSeleniumEnv
    end
 	
   test "GetAllQuestionsFromSubject" do

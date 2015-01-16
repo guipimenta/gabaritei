@@ -36,7 +36,7 @@ class ActiveSupport::TestCase
 		#Clear selenium db
 		system("RAILS_ENV=selenium rake db:reset")
 		#End server
-		Process.kill("QUIT", @pid)
+		Process.kill("SIGKILL", @pid)
 	end
   
 end

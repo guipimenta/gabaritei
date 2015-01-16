@@ -8,7 +8,13 @@ class QuestionsSubjectsTest < ActionDispatch::IntegrationTest
 	setupCapybara
 	setupSeleniumEnv
    end
-	
+  
+  #
+  # Teste de criacao e relacionamento
+  # entre os models subjects e questions
+  # Testa tambem os controllers e filtros
+  #
+  
   test "GetAllQuestionsFromSubject" do
    
    visit('/subjects')
@@ -35,7 +41,5 @@ class QuestionsSubjectsTest < ActionDispatch::IntegrationTest
    select('Geografia', :from => 'subject_id')
    click_button 'Filtrar'
    assert page.has_content?('Lorem Ipsum of Geography')
-   
-   
   end
 end

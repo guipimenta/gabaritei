@@ -19,7 +19,16 @@ development:
 test:
   <<: *default
   database: db/test.sqlite3
-
+  adapter: sqlite3
+  pool: 5
+  timeout: 500000
+  
 production:
   <<: *default
   database: db/production.sqlite3
+  
+selenium:
+  database: db/selenium.sqlite3
+  adapter: sqlite3
+  pool: 5
+  timeout: 500000

@@ -12,7 +12,7 @@ class Question < ActiveRecord::Base
 						belongs_to :subject
 
 	#Opcoes de tipo de Questao, funciona mais ou menos como um enum
-	TYPE = [
+	STYLE = [
 				DISCURSIVE_TYPE = 'Discursiva', 
 				ALTERNATIVE_TYPE = 'Alternativa'
 			]
@@ -25,7 +25,7 @@ class Question < ActiveRecord::Base
 
 	#Gosto desse tipo de metodos com interrogacao, acho que eles sao auto explicativos tambem
 	def alternative?
-		if self.type == Question::ALTERNATIVE_TYPE
+		if self.style == STYLE::ALTERNATIVE_TYPE
 			return true
 		else
 			return false
@@ -35,12 +35,12 @@ class Question < ActiveRecord::Base
 	
 	#retorna se a questao e quente ou nao
 	def hot?
-   return self.hot
+      return self.hot
 	end
 	
 
 	def discursive?
-		if self.type == Question::DISCURSIVE_TYPE
+		if self.style == Question::DISCURSIVE_TYPE
 			return true
 		else
 			return false
@@ -51,11 +51,11 @@ class Question < ActiveRecord::Base
 	#evitamos alguns typos. Depois do set o model ainda precisa ser salvo la no controller!
 	#Best practices: http://rails-bestpractices.com/posts/708-clever-enums-in-rails
 	def discursive_type
-		self.type = Question::DISCURSIVE_TYPE
+		self.style = Question::DISCURSIVE_TYPE
 	end
 
 	def alternative_type
-		self.type = Question::ALTERNATIVE_TYPE
+		self.style = Question::ALTERNATIVE_TYPE
 	end
 
 

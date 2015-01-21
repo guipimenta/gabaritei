@@ -16,12 +16,15 @@
     <%= f.text_area :question, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :style %><br>
-    <%= f.text_field :style %>
+    <%= f.label :style %>
+    <%=  select("question", "style", Question::STYLE, {include_blank: false})%>
   </div>
   <div class="field">
     <%= f.label :year %><br>
     <%= f.datetime_select :year %>
+  </div>
+  <div class="field">
+    <%= f.label :hot %> <%= f.check_box :hot%>
   </div>
   <div class="field">
     <%= f.label :subject %>

@@ -17,7 +17,11 @@ ActiveRecord::Schema.define(version: 20150113004416) do
     t.text     "question"
     t.datetime "year"
     t.string   "area"
+<<<<<<< HEAD
+    t.integer  "subject"
+=======
     t.integer  "subject_id"
+>>>>>>> modelsubjects
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "hot"

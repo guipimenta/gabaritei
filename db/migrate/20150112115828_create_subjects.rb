@@ -5,7 +5,7 @@ class CreateSubjects < ActiveRecord::Migration
       t.integer :professor_id
       t.integer :department_id
       t.text :descricao
-
+      
       t.timestamps
     end
   end

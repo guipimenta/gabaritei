@@ -42,9 +42,6 @@ build/
 .sqlite3
 
 
-#Lock files
-*.lock
-.lock
 
 #origi files - merging attempts
 .orig

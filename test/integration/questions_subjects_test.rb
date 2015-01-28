@@ -1,19 +1,27 @@
 require 'test_helper'
 
 class QuestionsSubjectsTest < ActionDispatch::IntegrationTest
-   include Capybara::DSL
-   setup do
-	@question = questions(:one)
-	@subject = subjects(:one)
-	setupCapybara
-	setupSeleniumEnv
-   end
+  include Capybara::DSL
+  
+  setup do
+  	@question = questions(:one)
+  	@subject = subjects(:one)
+  	setupCapybara
+  	setupSeleniumEnv
+  end
   
   #
   # Teste de criacao e relacionamento
   # entre os models subjects e questions
   # Testa tambem os controllers e filtros
+  # de disciplinas
   #
+
+  test "CreateSubject" do
+    visit('/subjects')
+    visist
+  end
+
   
   test "GetAllQuestionsFromSubject" do
    

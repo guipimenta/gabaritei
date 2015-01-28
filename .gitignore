@@ -40,3 +40,10 @@ build/
 
 #Merging rubish
 *.orig
+
+
+
+#origi files - merging attempts
+.orig
+*.orig
+

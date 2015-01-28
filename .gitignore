@@ -41,9 +41,12 @@ build/
 #Merging rubish
 *.orig
 
-
+#Mac OS X files
+.DS_Store*
+*.DS_STORE
 
 #origi files - merging attempts
 .orig
 *.orig
+*orig
 

@@ -23,9 +23,9 @@
 
 /* Use the following CSS code if you want to have a class per icon */
 /*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-custom-"] {
+//Instead of a list of all class selectors,
+//you can use the generic selector below, but it's slower:
+
 */
 .icon-custom-refresh, .icon-custom-up, .icon-custom-ui, .icon-custom-thumb, .icon-custom-settings, .icon-custom-right, .icon-custom-previous, .icon-custom-portlets, .icon-custom-next, .icon-custom-newpage, .icon-custom-new, .icon-custom-message, .icon-custom-map, .icon-custom-left, .icon-custom-home, .icon-custom-gallery, .icon-custom-form, .icon-custom-feedbacks, .icon-custom-extra, .icon-custom-downloads, .icon-custom-down, .icon-custom-cross, .icon-custom-chart, .icon-custom-alert {
 	font-family: 'icomoon';

@@ -10,8 +10,7 @@
 }
 
 
-/*  Font Awesome styles
-    ------------------------------------------------------- */
+
 /* includes sprites.less reset */
 [class^="custom"],
 [class*=" custom"] {
@@ -34,12 +33,12 @@
   display: inline-block;
   speak: none;
 }
-/* makes sure icons active on rollover in links */
+
 a [class^="custom"],
 a [class*=" custom"] {
   display: inline-block;
 }
-/* makes the font 33% larger relative to the icon container */
+
 .custom-iconlarge:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
@@ -49,7 +48,7 @@ a [class*=" custom"] {
 .btn [class*=" custom"],
 .nav [class*=" custom"] {
   display: inline;
-  /* keeps button heights with and without icons the same */
+
 
   line-height: .6em;
 }
@@ -67,7 +66,7 @@ li [class*=" custom"] {
 }
 li [class^="custom"].custom-iconlarge,
 li [class*=" custom"].custom-iconlarge {
-  /* increased font size for custom-iconlarge */
+
 
   width: 1.5625em;
 }
@@ -80,7 +79,7 @@ ul.icons li [class*=" custom"] {
   width: .75em;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
 [data-icon]:before {
 	font-family: 'custom';
 	content: attr(data-icon);
@@ -92,12 +91,7 @@ ul.icons li [class*=" custom"] {
 	-webkit-font-smoothing: antialiased;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="custom"] {
-*/
+
 .custom-iconchevron-right, .custom-iconchevron-left, .custom-icondocument-alt-fill, .custom-icondocument-alt-stroke, .custom-iconreload, .custom-iconDropdown, .custom-iconCross, .custom-iconform, .custom-iconCross-2, .custom-iconThumbnails, .custom-iconSkin, .custom-iconSetting, .custom-iconMessage, .custom-iconLock, .custom-iconHome, .custom-iconEdit, .custom-iconDropdown-2, .custom-iconcomment, .custom-iconAdd, .custom-iconfile, .custom-iconfile-upload, .custom-iconfile-download, .custom-iconfile-add, .custom-iconfile-remove, .custom-iconlayout, .custom-iconcamera, .custom-iconstats, .custom-iconlist, .custom-iconlist-2, .custom-iconundo, .custom-iconinstagram, .custom-iconinstagram-2, .custom-iconnewspaper-alt, .custom-iconcalendar, .custom-iconlocation, .custom-iconbars, .custom-iconstats-2, .custom-iconmenu {
 	font-family: 'custom';
 	speak: none;

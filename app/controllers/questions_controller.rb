@@ -42,7 +42,11 @@ class QuestionsController < ApplicationController
   # POST /questions
   # POST /questions.json
   def create
+    byebug
     @question = Question.new(question_params)
+    @subject = Subject.find(params[:subjects])
+    @question.subjects.append @subject
+    byebug
     respond_to do |format|
       if @question.save
         format.html { redirect_to @question, notice: 'Question was successfully created.' }
@@ -58,6 +62,9 @@ class QuestionsController < ApplicationController
   # PATCH/PUT /questions/1.json
   def update
     respond_to do |format|
+      @subject = Subject.find(params[:subjects])
+      @question.subjects.clear
+      @question.subjects.append @subject
       if @question.update(question_params)
         format.html { redirect_to @question, notice: 'Question was successfully updated.' }
         format.json { render :show, status: :ok, location: @question }
@@ -86,6 +93,6 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:question, :style, :year, :area, :subject_id,:hot)
+      params.require(:question).permit(:question, :style, :year, :area, :hot, :subject)
     end
 end

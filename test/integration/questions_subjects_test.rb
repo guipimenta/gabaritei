@@ -8,6 +8,7 @@ class QuestionsSubjectsTest < ActionDispatch::IntegrationTest
   	@subject = subjects(:one)
   	setupCapybara
   	setupSeleniumEnv
+
   end
   
   #
@@ -17,10 +18,6 @@ class QuestionsSubjectsTest < ActionDispatch::IntegrationTest
   # de disciplinas
   #
 
-  test "CreateSubject" do
-    visit('/subjects')
-    visist
-  end
 
   
   test "GetAllQuestionsFromSubject" do

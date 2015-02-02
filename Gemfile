@@ -44,7 +44,6 @@ gem 'capybara'
 gem 'selenium-webdriver'
 gem 'database_cleaner', '~> 1.4.0'
 
-gem 'byebug'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

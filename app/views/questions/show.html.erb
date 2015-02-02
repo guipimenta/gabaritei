@@ -16,8 +16,12 @@
 </p>
 
 <p>
-  <strong>Disciplina:</strong>
-  <%= @question.subject.name %>
+  <strong>Disciplinas:</strong>
+  <% @question.subjects.each { |e| %>
+  <br>
+  <%=e.name%>
+  <br>
+  <%}%>
 </p>
 
 <%= link_to 'Edit', edit_question_path(@question) %> |

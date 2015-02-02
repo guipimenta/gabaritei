@@ -7,7 +7,6 @@ class CreateQuestions < ActiveRecord::Migration
       t.datetime :year
       t.string :area
       
-      t.belongs_to :subject
       
       t.timestamps
     end

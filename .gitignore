@@ -50,3 +50,6 @@ build/
 *.orig
 *orig
 
+*.sqlite3
+.sqlite3
+

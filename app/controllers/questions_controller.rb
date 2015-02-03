@@ -61,7 +61,7 @@ class QuestionsController < ApplicationController
   # PATCH/PUT /questions/1
   # PATCH/PUT /questions/1.json
   def update
-    respond_to do |format|
+    respond_to do |format| 
       @subject = Subject.find(params[:subjects])
       @question.subjects.clear
       @question.subjects.append @subject

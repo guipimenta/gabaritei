@@ -13,8 +13,20 @@ require 'database_cleaner'
 	#Seta as configuracoes para o Capybara funcionar corretamente
 	#
 	def setupCapybara
-		Capybara.default_driver = :selenium
+		#Sobrescreve o default driver para usar o chrome
+		#Firefox 35 e incompativel com o capybara (talvez arrumem depois)
+		Capybara.register_driver :chrome do |app|
+  			Capybara::Selenium::Driver.new(app, :browser => :chrome)
+		end
+
+		Capybara.default_driver = :chrome
+
+		#Capybara.default_driver = Capybara::Selenium::Driver.new(app, :browser => :chrome)
+
+
 		Capybara.run_server = false
+
+		#Talvez criar um servidor de testes
 		Capybara.app_host = "http://localhost:3000"
 	end
 

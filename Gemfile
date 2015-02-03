@@ -42,6 +42,7 @@ gem 'byebug'
 #Selenium like testing!
 gem 'capybara'
 gem 'selenium-webdriver'
+#gem 'capybara-webkit'
 gem 'database_cleaner', '~> 1.4.0'
 
 

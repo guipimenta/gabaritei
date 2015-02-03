@@ -11,6 +11,7 @@ namespace :custom_test_task do
 
 	#Clear selenium db
 	system("RAILS_ENV=selenium rake db:reset")
+	
 	#End server
 	Process.kill("SIGKILL", @pid)
   end

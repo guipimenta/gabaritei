@@ -4,8 +4,8 @@ Projeto Gabaritei
 
 1. Apresentação
 
-Plataforma educacional online voltada para escolas e cursinhos. Flexível e adaptável, tem como objetivo suprir
-de ser utilizado em diversos ambientes, com diversas combinações de hardware e software.
+    Plataforma educacional online voltada para escolas e cursinhos. Flexível e adaptável, tem como objetivo suprir
+    de ser utilizado em diversos ambientes, com diversas combinações de hardware e software.
 
 2. Tecnologia utilizada
 
@@ -28,5 +28,18 @@ de ser utilizado em diversos ambientes, com diversas combinações de hardware e
     
     Comandos:
     
+    #instala as gems necessárias
     $ bundle install
-    $ bundle exec rake test:integration
+
+    Uma task rake criada de forma customizada executa alguns comandos de inicalização do ambiente de testes (ver código para maiores detalhes) e depois roda o
+    rake test:integration:
+
+    $ rake custom_test_task:runtests_selenium
+
+    Os testes necessitam do Google Chrome para serem executados (é possível trocar para o navegador firefox, caso necessário) e, também, do programa chromedriver.
+    Para instalar o chromedriver, entre no site:
+
+    <a href="http://chromedriver.storage.googleapis.com/index.html?path=2.14/">chromedriver download</a>
+
+    Faça download do arquivo para o seu sistema operacional, depois copie o arquivo para uma pasta do seu path (ex: /usr/bin). Feito isso, os testes de integração
+    devem rodar sem maiores problemas.

@@ -13,7 +13,8 @@ class QuestionsController < ApplicationController
       if params[:subject_id] == "0"
         @questions = Question.all
       else
-        @questions = Question.where(subject_id: params[:subject_id])
+        #Using has_many_belongs_many
+        @questions = Subject.find(params[:subject_id]).questions.all
       end
     end 
     
@@ -42,11 +43,9 @@ class QuestionsController < ApplicationController
   # POST /questions
   # POST /questions.json
   def create
-    byebug
     @question = Question.new(question_params)
     @subject = Subject.find(params[:subjects])
     @question.subjects.append @subject
-    byebug
     respond_to do |format|
       if @question.save
         format.html { redirect_to @question, notice: 'Question was successfully created.' }
